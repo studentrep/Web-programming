@@ -1,0 +1,158 @@
+﻿body {
+    background-color: lemonchiffon;
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    border-bottom: 10px solid white;
+    background-color: #D0F0C0;
+    margin: 0;
+}
+
+    nav > div {
+        margin-right: 10px;
+    }
+
+.tabs:hover {
+    background-color: beige;
+    transition: background-color 1.5s;
+}
+
+nav a {
+    margin-right: 10px;
+    font-family: Arial;
+    font-size: 20px;
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.tabs > a:hover {
+    color: lightgrey;
+    transition: color 1.5s;
+    transition: margin-left 1.5s;
+    margin-left: 10px;
+}
+
+#cart {
+    margin-left: 1260px;
+    position: absolute;
+}
+
+#cart:hover {
+    background-color: beige;
+    transition: background-color 1.5s;
+}
+
+#cart > a :hover {
+    color: lightgrey;
+    transition: color 1.5s;
+}
+
+
+h4 {
+    font-family: Arial;
+    font-size: 40px;
+    color: black;
+    #how can I fade in the text?;
+    transition: 2s;
+    text-align: center;
+}
+
+.card {
+    background-color: white;
+    width: 260px;
+    height: 395px;
+    display: flex;
+    margin: 10px;
+
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+#items {
+    display: flex;
+    flex-wrap: wrap;
+    position: center;
+    justify-content: space-around;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+img {
+    border-radius: 5px 5px 0 0;
+    max-width: 100%;
+    max-height: 75%;
+    height: 75%;
+    #margin-top: 45px;
+    #width: 50px;
+    #margin: 3px;
+    #display: block;
+}
+
+.nameOfTea {
+    font-family: Arial;
+    font-size: large;
+    position: absolute;
+    margin-top: 305px;
+    #margin-top: 10px;
+    #list-style-type: none;
+    #margin-left: 90px;
+    #margin-left: auto;
+    #margin-right: auto;
+    text-align: center;
+    border-bottom: groove;
+    width: 260px;
+    #background-color: aqua;
+}
+.size-selection {
+    position: absolute;
+    margin-top: 337px;
+    display: flex;
+    #list-style-type: none;
+    margin-left: 45px;
+}
+
+ .size{
+    font-family: Arial;
+    margin-left: 10px;
+}
+
+.size:hover{
+    background-color: paleturquoise;
+    font-weight: bold;
+    transition: background-color 1.5s;
+}
+
+
+.add-to-cart {
+    position: absolute;
+    overflow: auto;
+    margin-top: 365px;
+    margin-left: 90px;
+}
+
+.price {
+    position: absolute;
+    #background-color: aqua;
+    width: 260px;
+    height: 395px;
+    text-align: center;
+    margin-top: 365px;
+    margin-left: 80px;
+    font-family: Arial;
+}
+
+
+
+
+
+
+
+

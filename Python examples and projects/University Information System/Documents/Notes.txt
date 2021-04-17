@@ -1,0 +1,1 @@
+This project mainly illustrates the usage of classes as well as file reading and writing. 
